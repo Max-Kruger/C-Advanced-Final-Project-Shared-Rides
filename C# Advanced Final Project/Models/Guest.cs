@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace EventPlanner.Models
+namespace C__Advanced_Final_Project.Models
 {
     public class Guest
     {

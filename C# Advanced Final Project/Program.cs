@@ -1,4 +1,4 @@
-using EventPlanner.Models;
+using C__Advanced_Final_Project.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace C__Advanced_Final_Project
