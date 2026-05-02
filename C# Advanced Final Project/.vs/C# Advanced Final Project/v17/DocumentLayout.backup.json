@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sirni\\source\\repos\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\sirni\\source\\repos\\c-advanced-final-project-shared-rides\\c# advanced final project\\views\\home\\viewevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:views\\home\\viewevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\sirni\\source\\repos\\c-advanced-final-project-shared-rides\\c# advanced final project\\models\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:models\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\sirni\\source\\repos\\c-advanced-final-project-shared-rides\\c# advanced final project\\models\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:models\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\sirni\\source\\repos\\c-advanced-final-project-shared-rides\\c# advanced final project\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\sirni\\source\\repos\\c-advanced-final-project-shared-rides\\c# advanced final project\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\sirni\\source\\repos\\c-advanced-final-project-shared-rides\\c# advanced final project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\sirni\\source\\repos\\c-advanced-final-project-shared-rides\\c# advanced final project\\views\\home\\eventlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:views\\home\\eventlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\sirni\\source\\repos\\c-advanced-final-project-shared-rides\\c# advanced final project\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\sirni\\source\\repos\\c-advanced-final-project-shared-rides\\c# advanced final project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\sirni\\source\\repos\\c-advanced-final-project-shared-rides\\c# advanced final project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\sirni\\source\\repos\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\sirni\\source\\repos\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T18:56:48.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewEvent.cshtml",
+              "DocumentMoniker": "C:\\Users\\sirni\\source\\repos\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Home\\ViewEvent.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\ViewEvent.cshtml",
+              "ToolTip": "C:\\Users\\sirni\\source\\repos\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Home\\ViewEvent.cshtml",
+              "RelativeToolTip": "Views\\Home\\ViewEvent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-02T02:59:57.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\sirni\\source\\repos\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\sirni\\source\\repos\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Controllers\\EventController.cs",
+              "RelativeToolTip": "Controllers\\EventController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T01:27:37.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\sirni\\source\\repos\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\sirni\\source\\repos\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T01:27:34.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Guest.cs",
+              "DocumentMoniker": "C:\\Users\\sirni\\source\\repos\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Models\\Guest.cs",
+              "RelativeDocumentMoniker": "Models\\Guest.cs",
+              "ToolTip": "C:\\Users\\sirni\\source\\repos\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Models\\Guest.cs",
+              "RelativeToolTip": "Models\\Guest.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T01:27:23.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Driver.cs",
+              "DocumentMoniker": "C:\\Users\\sirni\\source\\repos\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Models\\Driver.cs",
+              "RelativeDocumentMoniker": "Models\\Driver.cs",
+              "ToolTip": "C:\\Users\\sirni\\source\\repos\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Models\\Driver.cs",
+              "RelativeToolTip": "Models\\Driver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T01:26:59.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EventList.cshtml",
+              "DocumentMoniker": "C:\\Users\\sirni\\source\\repos\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Home\\EventList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\EventList.cshtml",
+              "ToolTip": "C:\\Users\\sirni\\source\\repos\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Home\\EventList.cshtml",
+              "RelativeToolTip": "Views\\Home\\EventList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-01T23:30:34.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\sirni\\source\\repos\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "Models\\Event.cs",
+              "ToolTip": "C:\\Users\\sirni\\source\\repos\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Models\\Event.cs",
+              "RelativeToolTip": "Models\\Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T23:26:24.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sirni\\source\\repos\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\sirni\\source\\repos\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAB/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T23:08:23.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sirni\\source\\repos\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\sirni\\source\\repos\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-01T22:35:57.693Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
