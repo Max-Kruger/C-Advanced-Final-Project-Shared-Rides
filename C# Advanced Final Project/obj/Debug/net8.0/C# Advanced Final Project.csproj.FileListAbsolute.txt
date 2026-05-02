@@ -1,0 +1,34 @@
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\bin\Debug\net8.0\appsettings.json
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\bin\Debug\net8.0\C# Advanced Final Project.staticwebassets.runtime.json
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\bin\Debug\net8.0\C# Advanced Final Project.staticwebassets.endpoints.json
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\bin\Debug\net8.0\C# Advanced Final Project.exe
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\bin\Debug\net8.0\C# Advanced Final Project.deps.json
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\bin\Debug\net8.0\C# Advanced Final Project.runtimeconfig.json
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\bin\Debug\net8.0\C# Advanced Final Project.dll
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\bin\Debug\net8.0\C# Advanced Final Project.pdb
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\obj\Debug\net8.0\C# Advanced Final Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\obj\Debug\net8.0\C# Advanced Final Project.AssemblyInfoInputs.cache
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\obj\Debug\net8.0\C# Advanced Final Project.AssemblyInfo.cs
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\obj\Debug\net8.0\C# Advanced Final Project.csproj.CoreCompileInputs.cache
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\obj\Debug\net8.0\C# Advanced Final Project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\obj\Debug\net8.0\C# Advanced Final Project.RazorAssemblyInfo.cache
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\obj\Debug\net8.0\C# Advanced Final Project.RazorAssemblyInfo.cs
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\obj\Debug\net8.0\C# Advanced Final Project.sourcelink.json
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\obj\Debug\net8.0\scopedcss\bundle\C# Advanced Final Project.styles.css
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\obj\Debug\net8.0\scopedcss\projectbundle\C# Advanced Final Project.bundle.scp.css
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\obj\Debug\net8.0\C# Advanced Final Project.dll
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\obj\Debug\net8.0\refint\C# Advanced Final Project.dll
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\obj\Debug\net8.0\C# Advanced Final Project.pdb
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\obj\Debug\net8.0\C# Advanced Final Project.genruntimeconfig.cache
+C:\Users\maxkr\OneDrive\Documents\GitHub\C-Advanced-Final-Project-Shared-Rides\C# Advanced Final Project\obj\Debug\net8.0\ref\C# Advanced Final Project.dll
