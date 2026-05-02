@@ -4,9 +4,7 @@
     {
         public int DriverID { get; set; }
 
-        public string DriverName { get; set; } = string.Empty;
-
-        public string PhoneNumber { get; set; } = string.Empty;
+        public User DriverUser { get; set; }
 
         public int CurrentPassengers {  get; set; }
 
