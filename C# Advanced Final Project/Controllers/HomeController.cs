@@ -1,8 +1,8 @@
 using System.Diagnostics;
-using C__Advanced_Final_Project.Models;
+using EventPlanner.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace C__Advanced_Final_Project.Controllers
+namespace EventPlanner.Controllers
 {
     public class HomeController : Controller
     {

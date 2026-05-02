@@ -1,0 +1,31 @@
+﻿@model List<Event>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Location</th>
+            <th>Date</th>
+            <th>Drivers</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var currEvent in Model)
+        {
+            <tr>
+                <td>@currEvent.Name</td>
+                <td>@currEvent.Description</td>
+                <td>@currEvent.Location</td>
+                <td>@currEvent.EventDate</td>
+                <td>@currEvent.Drivers</td>
+
+                <td>
+                    <a asp-controller="Event" asp-action="Edit" asp-route-id="@currEvent.EventID"</a>
+                    <a asp-controller="Event" asp-action="Delete" asp-route-id="@currEvent.EventID"</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

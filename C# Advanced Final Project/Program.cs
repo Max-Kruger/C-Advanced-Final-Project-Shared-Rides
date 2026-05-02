@@ -1,3 +1,6 @@
+using EventPlanner.Models;
+using Microsoft.EntityFrameworkCore;
+
 namespace C__Advanced_Final_Project
 {
     public class Program
@@ -8,6 +11,8 @@ namespace C__Advanced_Final_Project
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            builder.Services.AddDbContext<EventContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("EventContext")));
 
             var app = builder.Build();
 

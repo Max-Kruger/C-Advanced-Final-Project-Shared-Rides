@@ -1,4 +1,4 @@
-namespace C__Advanced_Final_Project.Models
+namespace EventPlanner.Models
 {
     public class ErrorViewModel
     {
