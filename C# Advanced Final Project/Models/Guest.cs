@@ -4,6 +4,7 @@ namespace C__Advanced_Final_Project.Models
 {
     public class Guest
     {
+        [Key]
         public int GuestID { get; set; }
 
         public User GuestUser { get; set; }

@@ -27,6 +27,37 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                     </ul>
+                    <ul class="navbar-nav ms-auto">
+        @using Microsoft.AspNetCore.Identity
+        @inject SignInManager<User> signInManager
+                        @if (signInManager.IsSignedIn(User))
+                        {
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-controller="User" asp-action="Index">Manage Users</a>
+                                </li>
+                            }
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="Account" asp-action="ChangePassword">Change Password</a>
+                            </li>
+                            <li class="nav-item d-flex align-items-center">
+                                <span class="text-dark me-2">@User.Identity.Name</span>
+                                <form method="post" asp-action="LogOut" asp-controller="Account">
+                                    <input type="submit" value="Log Out" class="btn btn-outline-dark btn-sm" />
+                                </form>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a asp-action="Register" asp-controller="Account" class="nav-link text-dark">Register</a>
+                            </li>
+                            <li class="nav-item">
+                                <a asp-action="LogIn" asp-controller="Account" class="btn btn-outline-dark btn-sm ms-2">Log In</a>
+                            </li>
+                        }
+    </ul>
                 </div>
             </div>
         </nav>

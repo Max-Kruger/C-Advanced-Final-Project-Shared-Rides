@@ -1,4 +1,4 @@
-﻿using C__Advanced_Final_Project.Models;
+﻿using C__Advanced_Final_Project.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace C__Advanced_Final_Project.Controllers

@@ -6,6 +6,7 @@ namespace C__Advanced_Final_Project.Models
 {
     public class Event
     {
+        [Key]
         public int EventID { get; set; }
         [Required(ErrorMessage = "Please enter a name")]
         public string Name { get; set; } = string.Empty;
