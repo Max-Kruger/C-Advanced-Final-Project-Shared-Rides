@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using System.ComponentModel.DataAnnotations;
 
 namespace C__Advanced_Final_Project.Models
 {
@@ -7,10 +8,15 @@ namespace C__Advanced_Final_Project.Models
         [Key]
         public int DriverID { get; set; }
 
-        public User DriverUser { get; set; }
+        public string DriverUserId { get; set; } = string.Empty;
 
-        public int CurrentPassengers {  get; set; }
+        public User? DriverUser { get; set; }
+
+        public int remainingPassengers {  get; set; }
 
         public int MaxCapacity  { get; set; }
+
+        public int? AttendingEventId {  get; set; }
+
     }
 }

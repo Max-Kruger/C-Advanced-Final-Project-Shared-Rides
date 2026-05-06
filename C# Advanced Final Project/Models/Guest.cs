@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using System.ComponentModel.DataAnnotations;
 
 namespace C__Advanced_Final_Project.Models
 {
@@ -7,14 +8,20 @@ namespace C__Advanced_Final_Project.Models
         [Key]
         public int GuestID { get; set; }
 
-        public User GuestUser { get; set; }
+        [ValidateNever]
+        public string GuestUserID { get; set; } = string.Empty;
+
+        [ValidateNever]
+        public User? GuestUser { get; set; }
 
         public string Address { get; set; }
         [Required (ErrorMessage = "Please enter an event")]
-        public Event? AttendingEvent { get; set; }
+        public int AttendingEventId { get; set; }
+
+        [Required]
 
         public int DriverID { get; set; }
-
+        [ValidateNever]
         public Driver? AssignedDriver { get; set; }
 
     }

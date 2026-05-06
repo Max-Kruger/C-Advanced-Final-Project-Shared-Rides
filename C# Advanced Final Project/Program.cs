@@ -11,9 +11,13 @@ namespace C__Advanced_Final_Project
         {
             var builder = WebApplication.CreateBuilder(args);
 
+
+            builder.Services.AddMemoryCache();
+            builder.Services.AddSession();
             builder.Services.AddControllersWithViews();
             builder.Services.AddDbContext<EventContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("EventContext")));
+        
 
             builder.Services.AddIdentity<User, IdentityRole>(options => {
                 options.Password.RequiredLength = 6;
@@ -42,6 +46,8 @@ namespace C__Advanced_Final_Project
             {
                 await ConfigureIdentity.CreateAdminUserAsync(scope.ServiceProvider);
             }
+
+            app.UseSession();
 
             app.MapControllerRoute(
                 name: "default",

@@ -1,0 +1,31 @@
+﻿@{
+    var isAdmin = User.IsInRole("Admin");
+}
+
+@foreach (var currEvent in Model)
+{
+    <tr>
+        <td>@currEvent.Name</td>
+        <td>@currEvent.Description</td>
+        <td>@currEvent.Location</td>
+        <td>@currEvent.EventDate</td>
+        <td>@currEvent.Drivers</td>
+
+        @if (!isAdmin)
+        {
+            <td>
+                <a asp-controller="Event" asp-action="ViewEvent" asp-route-id="@currEvent.EventID">Sign Up</a>
+            </td>
+        }
+
+        @if (isAdmin)
+        {
+            <td>
+                <a asp-controller="Event" asp-action="Edit" asp-route-id="@currEvent.EventID">Edit</a>
+            </td>
+            <td>
+                <a asp-controller="Event" asp-action="Delete" asp-route-id="@currEvent.EventID">Delete</a>
+            </td>
+        }
+    </tr>
+}

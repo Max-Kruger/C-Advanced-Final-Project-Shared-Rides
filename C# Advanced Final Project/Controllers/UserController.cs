@@ -90,5 +90,7 @@ namespace C__Advanced_Final_Project.Controllers
             await roleManager.CreateAsync(new IdentityRole("Admin"));
             return RedirectToAction("Index");
         }
+
+
     }
 }

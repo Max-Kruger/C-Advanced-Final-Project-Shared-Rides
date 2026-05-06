@@ -30,13 +30,17 @@ namespace C__Advanced_Final_Project.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DriverID"));
 
-                    b.Property<int>("CurrentPassengers")
+                    b.Property<int>("AttendingEventId")
                         .HasColumnType("int");
 
                     b.Property<string>("DriverUserId")
+                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<int>("MaxCapacity")
+                        .HasColumnType("int");
+
+                    b.Property<int>("remainingPassengers")
                         .HasColumnType("int");
 
                     b.HasKey("DriverID");
@@ -44,6 +48,16 @@ namespace C__Advanced_Final_Project.Migrations
                     b.HasIndex("DriverUserId");
 
                     b.ToTable("Drivers");
+
+                    b.HasData(
+                        new
+                        {
+                            DriverID = 1,
+                            AttendingEventId = 1,
+                            DriverUserId = "static-user-id-1",
+                            MaxCapacity = 4,
+                            remainingPassengers = 4
+                        });
                 });
 
             modelBuilder.Entity("C__Advanced_Final_Project.Models.Event", b =>
@@ -100,7 +114,7 @@ namespace C__Advanced_Final_Project.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("AttendingEventEventID")
+                    b.Property<int>("AttendingEventId")
                         .HasColumnType("int");
 
                     b.Property<int>("DriverID")
@@ -110,8 +124,6 @@ namespace C__Advanced_Final_Project.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.HasKey("GuestID");
-
-                    b.HasIndex("AttendingEventEventID");
 
                     b.HasIndex("DriverID");
 
@@ -350,19 +362,15 @@ namespace C__Advanced_Final_Project.Migrations
                 {
                     b.HasOne("C__Advanced_Final_Project.Models.User", "DriverUser")
                         .WithMany()
-                        .HasForeignKey("DriverUserId");
+                        .HasForeignKey("DriverUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("DriverUser");
                 });
 
             modelBuilder.Entity("C__Advanced_Final_Project.Models.Guest", b =>
                 {
-                    b.HasOne("C__Advanced_Final_Project.Models.Event", "AttendingEvent")
-                        .WithMany()
-                        .HasForeignKey("AttendingEventEventID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("C__Advanced_Final_Project.Models.Driver", "AssignedDriver")
                         .WithMany()
                         .HasForeignKey("DriverID")
@@ -374,8 +382,6 @@ namespace C__Advanced_Final_Project.Migrations
                         .HasForeignKey("GuestUserId");
 
                     b.Navigation("AssignedDriver");
-
-                    b.Navigation("AttendingEvent");
 
                     b.Navigation("GuestUser");
                 });
