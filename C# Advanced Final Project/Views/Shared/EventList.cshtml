@@ -1,4 +1,15 @@
 ﻿@model List<Event>
+@{
+    var isAdmin = User.IsInRole("Admin");
+}
+
+@if (isAdmin)
+{
+    <div class="mb-2">
+        <a asp-controller="Event" asp-action="Add">Add Event</a>
+    </div>
+
+}
 
 
 <table class="table table-bordered table-striped">

@@ -1,8 +1,8 @@
-﻿@{
+﻿@using C__Advanced_Final_Project.Controllers
+@{
     var isAdmin = User.IsInRole("Admin");
-    var isDriver = User.IsInRole("Driver");
-    var signedUpIds = ViewBag.SignedUpEventIds as List<int?> ?? new List<int?>();
 }
+
 @foreach (var currEvent in Model)
 {
     <tr>
@@ -11,26 +11,21 @@
         <td>@currEvent.Location</td>
         <td>@currEvent.EventDate</td>
         <td>@currEvent.Drivers</td>
-        @if (isDriver && !isAdmin)
+
+        @if (!isAdmin)
         {
             <td>
-                @if (signedUpIds.Contains(currEvent.EventID))
-                {
-                    <span class="badge bg-success">Already Signed Up</span>
-                }
-                else
-                {
-                    <a asp-controller="Driver" asp-action="SignUpForEvent" asp-route-id="@currEvent.EventID" class="btn btn-sm btn-primary">Sign Up as Driver</a>
-                }
+                <a asp-controller="Event" asp-action="ViewEvent" asp-route-id="@currEvent.EventID">Sign Up</a>
             </td>
         }
+
         @if (isAdmin)
         {
             <td>
-                <a asp-controller="Event" asp-action="Edit" asp-route-id="@currEvent.EventID">Edit</a>
+                <a asp-controller="Event" asp-action="@nameof(EventController.EditEvent)" asp-route-id="@currEvent.EventID">Edit</a>
             </td>
             <td>
-                <a asp-controller="Event" asp-action="Delete" asp-route-id="@currEvent.EventID">Delete</a>
+                <a asp-controller="Event" asp-action="DeleteEvent" asp-route-id="@currEvent.EventID">Delete</a>
             </td>
         }
     </tr>
