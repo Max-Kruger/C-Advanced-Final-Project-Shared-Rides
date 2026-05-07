@@ -25,6 +25,12 @@
                 }
             </td>
         }
+        @if (!isAdmin)
+        {
+            <td>
+                <a asp-controller="Event" asp-action="ViewEvent" asp-route-id="@currEvent.EventID">Sign Up</a>
+            </td>
+        }
         @if (isAdmin)
         {
             <td>
