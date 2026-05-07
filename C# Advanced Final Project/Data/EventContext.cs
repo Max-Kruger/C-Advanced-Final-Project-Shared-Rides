@@ -27,6 +27,12 @@ namespace C__Advanced_Final_Project.Data
             if (dbGuest == null)
             {
                 this.Guests.Add(newGuest);
+                var ev = this.Events.Find(newGuest.AttendingEventId);
+                if (ev != null)
+                {
+                    ev.Riders += 1;
+                    this.Events.Update(ev);
+                }
             }
             else
             {
@@ -96,7 +102,7 @@ namespace C__Advanced_Final_Project.Data
                 Description = "Test",
                 Location = "TestLocation",
                 EventDate = DateOnly.MinValue,
-                Drivers = 0
+                Riders = 0
 
             }
             );

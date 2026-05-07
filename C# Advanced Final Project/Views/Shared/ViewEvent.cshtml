@@ -8,6 +8,11 @@
 <form asp-action="ViewEvent" method="post">
     <div asp-validation-summary="All" class="text-danger"></div>
     <div class="mb-3">
+        <label asp-for="Address" class="form-label">Your Address</label>
+        <input asp-for="Address" class="form-control" placeholder="Enter your pickup address" />
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
         <label asp-for="DriverID" class="form-label">Select Your Driver</label>
         <select asp-for="DriverID" class="form-select">
             <option value="">-- Select a Driver --</option>

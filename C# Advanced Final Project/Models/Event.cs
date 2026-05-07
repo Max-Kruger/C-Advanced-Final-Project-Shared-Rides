@@ -18,7 +18,7 @@ namespace C__Advanced_Final_Project.Models
         [Required(ErrorMessage = "Please enter a date")]
         public DateOnly EventDate { get; set; }
 
-        public int Drivers { get; set; } = 0;
+        public int Riders { get; set; } = 0;
 
         
 
