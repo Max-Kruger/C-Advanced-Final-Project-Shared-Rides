@@ -28,10 +28,10 @@
         @if (isAdmin)
         {
             <td>
-                <a asp-controller="Event" asp-action="Edit" asp-route-id="@currEvent.EventID">Edit</a>
+                <a asp-controller="Event" asp-action="@nameof(EventController.EditEvent)" asp-route-id="@currEvent.EventID">Edit</a>
             </td>
             <td>
-                <a asp-controller="Event" asp-action="Delete" asp-route-id="@currEvent.EventID">Delete</a>
+                <a asp-controller="Event" asp-action="DeleteEvent" asp-route-id="@currEvent.EventID">Delete</a>
             </td>
         }
     </tr>
