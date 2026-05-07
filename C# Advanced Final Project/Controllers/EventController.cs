@@ -104,19 +104,19 @@ namespace C__Advanced_Final_Project.Controllers
         public IActionResult Add()
         {
             ViewBag.Action = "Add";
-            return View("Edit", new Event());
+            return View("EditEvent", new Event());
         }
 
         [HttpGet]
-        public IActionResult Edit(int id)
+        public IActionResult EditEvent(int id)
         {
-            ViewBag.Action = "Edit";
+            ViewBag.Action = "EditEvent";
             var e = context.Events.Find(id);
             return View(e);
 
         }
         [HttpPost]
-        public IActionResult Edit(Event e)
+        public IActionResult EditEvent(Event e)
         {
 
             if (ModelState.IsValid)
@@ -139,7 +139,7 @@ namespace C__Advanced_Final_Project.Controllers
             }
             else
             {
-                ViewBag.Action = (e.EventID == 0) ? "Add" : "Edit";
+                ViewBag.Action = (e.EventID == 0) ? "Add" : "EditEvent";
                 return View(e);
             }
         }
