@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace C__Advanced_Final_Project.Migrations
 {
     [DbContext(typeof(EventContext))]
-    [Migration("20260503201643_InitialCreate")]
+    [Migration("20260506234422_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -33,13 +33,17 @@ namespace C__Advanced_Final_Project.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DriverID"));
 
-                    b.Property<int>("CurrentPassengers")
+                    b.Property<int?>("AttendingEventId")
                         .HasColumnType("int");
 
                     b.Property<string>("DriverUserId")
+                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<int>("MaxCapacity")
+                        .HasColumnType("int");
+
+                    b.Property<int>("remainingPassengers")
                         .HasColumnType("int");
 
                     b.HasKey("DriverID");
@@ -47,6 +51,16 @@ namespace C__Advanced_Final_Project.Migrations
                     b.HasIndex("DriverUserId");
 
                     b.ToTable("Drivers");
+
+                    b.HasData(
+                        new
+                        {
+                            DriverID = 1,
+                            AttendingEventId = 1,
+                            DriverUserId = "static-user-id-1",
+                            MaxCapacity = 4,
+                            remainingPassengers = 4
+                        });
                 });
 
             modelBuilder.Entity("C__Advanced_Final_Project.Models.Event", b =>
@@ -103,22 +117,21 @@ namespace C__Advanced_Final_Project.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("AttendingEventEventID")
+                    b.Property<int>("AttendingEventId")
                         .HasColumnType("int");
 
                     b.Property<int>("DriverID")
                         .HasColumnType("int");
 
-                    b.Property<string>("GuestUserId")
+                    b.Property<string>("GuestUserID")
+                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.HasKey("GuestID");
 
-                    b.HasIndex("AttendingEventEventID");
-
                     b.HasIndex("DriverID");
 
-                    b.HasIndex("GuestUserId");
+                    b.HasIndex("GuestUserID");
 
                     b.ToTable("Guests");
                 });
@@ -353,32 +366,28 @@ namespace C__Advanced_Final_Project.Migrations
                 {
                     b.HasOne("C__Advanced_Final_Project.Models.User", "DriverUser")
                         .WithMany()
-                        .HasForeignKey("DriverUserId");
+                        .HasForeignKey("DriverUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("DriverUser");
                 });
 
             modelBuilder.Entity("C__Advanced_Final_Project.Models.Guest", b =>
                 {
-                    b.HasOne("C__Advanced_Final_Project.Models.Event", "AttendingEvent")
-                        .WithMany()
-                        .HasForeignKey("AttendingEventEventID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("C__Advanced_Final_Project.Models.Driver", "AssignedDriver")
                         .WithMany()
                         .HasForeignKey("DriverID")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
                     b.HasOne("C__Advanced_Final_Project.Models.User", "GuestUser")
                         .WithMany()
-                        .HasForeignKey("GuestUserId");
+                        .HasForeignKey("GuestUserID")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
 
                     b.Navigation("AssignedDriver");
-
-                    b.Navigation("AttendingEvent");
 
                     b.Navigation("GuestUser");
                 });

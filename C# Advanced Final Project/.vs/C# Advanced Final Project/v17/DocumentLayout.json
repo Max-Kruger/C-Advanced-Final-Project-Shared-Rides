@@ -1,62 +1,166 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\adv c# programming\\Final\\C# Advanced Final Project\\",
+  "WorkspaceRootPath": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|d:\\adv c# programming\\final\\c# advanced final project\\data\\eventcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:data\\eventcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|d:\\adv c# programming\\final\\c# advanced final project\\views\\shared\\viewevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:views\\shared\\viewevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|d:\\adv c# programming\\final\\c# advanced final project\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|d:\\adv c# programming\\final\\c# advanced final project\\models\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:models\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|d:\\adv c# programming\\final\\c# advanced final project\\models\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:models\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|d:\\adv c# programming\\final\\c# advanced final project\\views\\shared\\eventlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:views\\shared\\eventlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|d:\\adv c# programming\\final\\c# advanced final project\\views\\shared\\_dbtableitemslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:views\\shared\\_dbtableitemslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|d:\\adv c# programming\\final\\c# advanced final project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|d:\\adv c# programming\\final\\c# advanced final project\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|d:\\adv c# programming\\final\\c# advanced final project\\views\\account\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:views\\account\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|d:\\adv c# programming\\final\\c# advanced final project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|d:\\adv c# programming\\final\\c# advanced final project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|d:\\adv c# programming\\final\\c# advanced final project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\controllers\\drivercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:controllers\\drivercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|d:\\adv c# programming\\final\\c# advanced final project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\views\\driver\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:views\\driver\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\views\\shared\\_dbtableitemslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:views\\shared\\_dbtableitemslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\views\\driver\\signupforevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:views\\driver\\signupforevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\models\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:models\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Migrations\\20260507003818_FixingDriverView.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260507003818_FixingDriverView.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\views\\shared\\viewevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:views\\shared\\viewevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\views\\shared\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:views\\shared\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\views\\shared\\eventlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:views\\shared\\eventlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\views\\events\\editevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:views\\events\\editevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\views\\account\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:views\\account\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\models\\userview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:models\\userview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\models\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:models\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\models\\drive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:models\\drive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\models\\configureidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:models\\configureidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\models\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:models\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\data\\eventcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:data\\eventcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Migrations\\20260507001903_AddCarInfoToDriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260507001903_AddCarInfoToDriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Migrations\\20260506234422_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260506234422_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Migrations\\20260506234156_InitialCreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260506234156_InitialCreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|c:\\users\\maxkr\\onedrive\\documents\\github\\c-advanced-final-project-shared-rides\\c# advanced final project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2B2B95D1-224C-4898-A4C9-28B2D891EE36}|C# Advanced Final Project.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,32 +170,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\adv c# programming\\Final\\C# Advanced Final Project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\adv c# programming\\Final\\C# Advanced Final Project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-06T19:47:33.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_DBTableItemsList.cshtml",
-              "DocumentMoniker": "D:\\adv c# programming\\Final\\C# Advanced Final Project\\Views\\Shared\\_DBTableItemsList.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_DBTableItemsList.cshtml",
-              "ToolTip": "D:\\adv c# programming\\Final\\C# Advanced Final Project\\Views\\Shared\\_DBTableItemsList.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_DBTableItemsList.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-06T18:18:52.949Z",
+              "DocumentIndex": 27,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T23:23:07.938Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -100,102 +192,327 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EventList.cshtml",
-              "DocumentMoniker": "D:\\adv c# programming\\Final\\C# Advanced Final Project\\Views\\Shared\\EventList.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\EventList.cshtml",
-              "ToolTip": "D:\\adv c# programming\\Final\\C# Advanced Final Project\\Views\\Shared\\EventList.cshtml",
-              "RelativeToolTip": "Views\\Shared\\EventList.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-06T03:14:05.054Z",
+              "DocumentIndex": 11,
+              "Title": "20260507003818_FixingDriverView.cs",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Migrations\\20260507003818_FixingDriverView.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260507003818_FixingDriverView.cs",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Migrations\\20260507003818_FixingDriverView.cs",
+              "RelativeToolTip": "Migrations\\20260507003818_FixingDriverView.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T00:38:18.259Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "EventController.cs",
-              "DocumentMoniker": "D:\\adv c# programming\\Final\\C# Advanced Final Project\\Controllers\\EventController.cs",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Controllers\\EventController.cs",
               "RelativeDocumentMoniker": "Controllers\\EventController.cs",
-              "ToolTip": "D:\\adv c# programming\\Final\\C# Advanced Final Project\\Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Controllers\\EventController.cs",
               "RelativeToolTip": "Controllers\\EventController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAIwDUAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAywB4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-06T00:24:07.432Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EventContext.cs",
-              "DocumentMoniker": "D:\\adv c# programming\\Final\\C# Advanced Final Project\\Data\\EventContext.cs",
-              "RelativeDocumentMoniker": "Data\\EventContext.cs",
-              "ToolTip": "D:\\adv c# programming\\Final\\C# Advanced Final Project\\Data\\EventContext.cs",
-              "RelativeToolTip": "Data\\EventContext.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAcwBMAAAC0AAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "_DBTableItemsList.cshtml",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Shared\\_DBTableItemsList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_DBTableItemsList.cshtml",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Shared\\_DBTableItemsList.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_DBTableItemsList.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAcwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-06T18:18:52.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Shared\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Index.cshtml",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Shared\\Index.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Index.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAiwDIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-06T23:59:06.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T02:06:05.069Z",
+              "WhenOpened": "2026-05-06T23:45:33.162Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Driver.cs",
-              "DocumentMoniker": "D:\\adv c# programming\\Final\\C# Advanced Final Project\\Models\\Driver.cs",
-              "RelativeDocumentMoniker": "Models\\Driver.cs",
-              "ToolTip": "D:\\adv c# programming\\Final\\C# Advanced Final Project\\Models\\Driver.cs",
-              "RelativeToolTip": "Models\\Driver.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAATAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-06T03:13:07.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DriverController.cs",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Controllers\\DriverController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DriverController.cs",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Controllers\\DriverController.cs",
+              "RelativeToolTip": "Controllers\\DriverController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAiwFMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T01:35:46.953Z",
+              "WhenOpened": "2026-05-07T00:06:04.325Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ViewEvent.cshtml",
-              "DocumentMoniker": "D:\\adv c# programming\\Final\\C# Advanced Final Project\\Views\\Shared\\ViewEvent.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\ViewEvent.cshtml",
-              "ToolTip": "D:\\adv c# programming\\Final\\C# Advanced Final Project\\Views\\Shared\\ViewEvent.cshtml",
-              "RelativeToolTip": "Views\\Shared\\ViewEvent.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwD0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T01:59:28.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T00:23:52.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SignUpForEvent.cshtml",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Driver\\SignUpForEvent.cshtml",
+              "RelativeDocumentMoniker": "Views\\Driver\\SignUpForEvent.cshtml",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Driver\\SignUpForEvent.cshtml",
+              "RelativeToolTip": "Views\\Driver\\SignUpForEvent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-06T01:39:41.824Z",
+              "WhenOpened": "2026-05-07T00:51:01.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-06T19:47:33.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Models\\Register.cs",
+              "RelativeDocumentMoniker": "Models\\Register.cs",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Models\\Register.cs",
+              "RelativeToolTip": "Models\\Register.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T23:23:05.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-06T23:58:56.105Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Guest.cs",
-              "DocumentMoniker": "D:\\adv c# programming\\Final\\C# Advanced Final Project\\Models\\Guest.cs",
-              "RelativeDocumentMoniker": "Models\\Guest.cs",
-              "ToolTip": "D:\\adv c# programming\\Final\\C# Advanced Final Project\\Models\\Guest.cs",
-              "RelativeToolTip": "Models\\Guest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T01:37:13.482Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Driver\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Driver\\Index.cshtml",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Driver\\Index.cshtml",
+              "RelativeToolTip": "Views\\Driver\\Index.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-07T00:06:53.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "D:\\adv c# programming\\Final\\C# Advanced Final Project\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "D:\\adv c# programming\\Final\\C# Advanced Final Project\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-05-06T17:45:03.654Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-06T23:59:23.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Driver.cs",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Models\\Driver.cs",
+              "RelativeDocumentMoniker": "Models\\Driver.cs",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Models\\Driver.cs",
+              "RelativeToolTip": "Models\\Driver.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T01:35:46.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-06T23:59:16.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ViewEvent.cshtml",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Shared\\ViewEvent.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\ViewEvent.cshtml",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Shared\\ViewEvent.cshtml",
+              "RelativeToolTip": "Views\\Shared\\ViewEvent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-06T01:39:41.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EventList.cshtml",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Shared\\EventList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\EventList.cshtml",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Shared\\EventList.cshtml",
+              "RelativeToolTip": "Views\\Shared\\EventList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-06T03:14:05.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-06T23:58:28.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EditEvent.cshtml",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Events\\EditEvent.cshtml",
+              "RelativeDocumentMoniker": "Views\\Events\\EditEvent.cshtml",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Events\\EditEvent.cshtml",
+              "RelativeToolTip": "Views\\Events\\EditEvent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-06T23:24:20.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-07T00:14:33.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwB4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-07T00:28:55.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "EditProfile.cshtml",
-              "DocumentMoniker": "D:\\adv c# programming\\Final\\C# Advanced Final Project\\Views\\Account\\EditProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Account\\EditProfile.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\EditProfile.cshtml",
-              "ToolTip": "D:\\adv c# programming\\Final\\C# Advanced Final Project\\Views\\Account\\EditProfile.cshtml",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Account\\EditProfile.cshtml",
               "RelativeToolTip": "Views\\Account\\EditProfile.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -204,55 +521,184 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\adv c# programming\\Final\\C# Advanced Final Project\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\adv c# programming\\Final\\C# Advanced Final Project\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "DocumentIndex": 25,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeToolTip": "Views\\Account\\ChangePassword.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwBoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-06T03:13:07.487Z",
+              "WhenOpened": "2026-05-07T00:25:52.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\adv c# programming\\Final\\C# Advanced Final Project\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\adv c# programming\\Final\\C# Advanced Final Project\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAABfAAAAAAAAAA==",
+              "DocumentIndex": 28,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "Models\\Login.cs",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Models\\Login.cs",
+              "RelativeToolTip": "Models\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T01:59:28.029Z",
+              "WhenOpened": "2026-05-06T23:23:12.163Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 29,
+              "Title": "Guest.cs",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Models\\Guest.cs",
+              "RelativeDocumentMoniker": "Models\\Guest.cs",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Models\\Guest.cs",
+              "RelativeToolTip": "Models\\Guest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T01:37:13.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "Models\\Event.cs",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Models\\Event.cs",
+              "RelativeToolTip": "Models\\Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T23:22:54.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Drive.cs",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Models\\Drive.cs",
+              "RelativeDocumentMoniker": "Models\\Drive.cs",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Models\\Drive.cs",
+              "RelativeToolTip": "Models\\Drive.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T23:54:38.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ConfigureIdentity.cs",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Models\\ConfigureIdentity.cs",
+              "RelativeDocumentMoniker": "Models\\ConfigureIdentity.cs",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Models\\ConfigureIdentity.cs",
+              "RelativeToolTip": "Models\\ConfigureIdentity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T23:54:42.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ChangePasswordViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Models\\ChangePasswordViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ChangePasswordViewModel.cs",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Models\\ChangePasswordViewModel.cs",
+              "RelativeToolTip": "Models\\ChangePasswordViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T23:54:34.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "EventContext.cs",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Data\\EventContext.cs",
+              "RelativeDocumentMoniker": "Data\\EventContext.cs",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Data\\EventContext.cs",
+              "RelativeToolTip": "Data\\EventContext.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAcwG8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T02:06:05.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAgwGEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T23:49:07.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserView.cs",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Models\\UserView.cs",
+              "RelativeDocumentMoniker": "Models\\UserView.cs",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Models\\UserView.cs",
+              "RelativeToolTip": "Models\\UserView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T23:23:04.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20260507001903_AddCarInfoToDriver.cs",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Migrations\\20260507001903_AddCarInfoToDriver.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260507001903_AddCarInfoToDriver.cs",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Migrations\\20260507001903_AddCarInfoToDriver.cs",
+              "RelativeToolTip": "Migrations\\20260507001903_AddCarInfoToDriver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T00:19:03.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20260506234156_InitialCreate2.cs",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Migrations\\20260506234156_InitialCreate2.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260506234156_InitialCreate2.cs",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Migrations\\20260506234156_InitialCreate2.cs",
+              "RelativeToolTip": "Migrations\\20260506234156_InitialCreate2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T23:41:56.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20260506234422_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Migrations\\20260506234422_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260506234422_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\Migrations\\20260506234422_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20260506234422_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T23:44:22.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\adv c# programming\\Final\\C# Advanced Final Project\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\adv c# programming\\Final\\C# Advanced Final Project\\appsettings.json",
+              "ToolTip": "C:\\Users\\maxkr\\OneDrive\\Documents\\GitHub\\C-Advanced-Final-Project-Shared-Rides\\C# Advanced Final Project\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-06T02:42:54.548Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\adv c# programming\\Final\\C# Advanced Final Project\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\adv c# programming\\Final\\C# Advanced Final Project\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T00:23:52.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-06T02:42:54.548Z"
             }
           ]
         }

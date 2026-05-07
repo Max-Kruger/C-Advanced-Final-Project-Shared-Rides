@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Sign Up for " + ViewBag.Event.Name;
+}
+
+<h2>Sign Up for @ViewBag.Event.Name</h2>
+<h5>@ViewBag.Event.Location — @ViewBag.Event.EventDate</h5>
+
+<form asp-action="SignUpAsDriver" method="post">
+    <input type="hidden" name="eventId" value="@ViewBag.Event.EventID" />
+    <div class="mb-3">
+        <label class="form-label">Max Passenger Capacity</label>
+        <input type="number" name="maxCapacity" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Car Make (e.g. Toyota)</label>
+        <input type="text" name="carMake" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Car Model (e.g. Camry)</label>
+        <input type="text" name="carModel" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Car Color</label>
+        <input type="text" name="carColor" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Sign Up</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

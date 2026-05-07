@@ -30,8 +30,20 @@ namespace C__Advanced_Final_Project.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DriverID"));
 
-                    b.Property<int>("AttendingEventId")
+                    b.Property<int?>("AttendingEventId")
                         .HasColumnType("int");
+
+                    b.Property<string>("CarColor")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CarMake")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CarModel")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("DriverUserId")
                         .IsRequired()
@@ -54,6 +66,9 @@ namespace C__Advanced_Final_Project.Migrations
                         {
                             DriverID = 1,
                             AttendingEventId = 1,
+                            CarColor = "",
+                            CarMake = "",
+                            CarModel = "",
                             DriverUserId = "static-user-id-1",
                             MaxCapacity = 4,
                             remainingPassengers = 4
@@ -120,14 +135,15 @@ namespace C__Advanced_Final_Project.Migrations
                     b.Property<int>("DriverID")
                         .HasColumnType("int");
 
-                    b.Property<string>("GuestUserId")
+                    b.Property<string>("GuestUserID")
+                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.HasKey("GuestID");
 
                     b.HasIndex("DriverID");
 
-                    b.HasIndex("GuestUserId");
+                    b.HasIndex("GuestUserID");
 
                     b.ToTable("Guests");
                 });
@@ -374,12 +390,14 @@ namespace C__Advanced_Final_Project.Migrations
                     b.HasOne("C__Advanced_Final_Project.Models.Driver", "AssignedDriver")
                         .WithMany()
                         .HasForeignKey("DriverID")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
                     b.HasOne("C__Advanced_Final_Project.Models.User", "GuestUser")
                         .WithMany()
-                        .HasForeignKey("GuestUserId");
+                        .HasForeignKey("GuestUserID")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
 
                     b.Navigation("AssignedDriver");
 

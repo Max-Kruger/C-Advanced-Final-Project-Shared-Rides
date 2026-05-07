@@ -1,11 +1,13 @@
 ﻿using C__Advanced_Final_Project.Data;
 using C__Advanced_Final_Project.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.Blazor;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 
 namespace C__Advanced_Final_Project.Controllers
 {
@@ -24,26 +26,36 @@ namespace C__Advanced_Final_Project.Controllers
         }
 
         [HttpGet]
-        public IActionResult EventList()
+        public async Task<IActionResult> EventList()
         {
             var events = context.Events.ToList();
-
+            if (User.IsInRole("Driver"))
+            {
+                var currentUser = await _userManager.GetUserAsync(User);
+                var signedUpEventIds = context.Drivers
+                    .Where(d => d.DriverUserId == currentUser.Id && d.AttendingEventId != null)
+                    .Select(d => d.AttendingEventId)
+                    .ToList();
+                ViewBag.SignedUpEventIds = signedUpEventIds;
+            }
             return View(events);
         }
 
+        [Authorize]
         [HttpGet]
         public async Task<IActionResult> MyEvents()
         {
             var currentUser = await _userManager.GetUserAsync(User);
 
-            var events = context.FetchMyEvents(currentUser);
+            // Add this check
+            if (currentUser == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
 
+            var events = context.FetchMyEvents(currentUser);
             return View("EventList", events);
         }
-
-
-
-
         [HttpGet]
         public IActionResult ViewEvent(int id) { 
             
@@ -129,5 +141,5 @@ namespace C__Advanced_Final_Project.Controllers
             
         }
             
-    }
 }
+

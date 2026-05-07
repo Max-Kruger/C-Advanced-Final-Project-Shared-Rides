@@ -44,7 +44,30 @@ namespace C__Advanced_Final_Project
             var scopeFactory = app.Services.GetRequiredService<IServiceScopeFactory>();
             using (var scope = scopeFactory.CreateScope())
             {
-                await ConfigureIdentity.CreateAdminUserAsync(scope.ServiceProvider);
+                var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+                var userManager = scope.ServiceProvider.GetRequiredService<UserManager<User>>();
+
+                // Admin
+                if (await roleManager.FindByNameAsync("Admin") == null)
+                    await roleManager.CreateAsync(new IdentityRole("Admin"));
+                if (await userManager.FindByNameAsync("adminUsername") == null)
+                {
+                    User user = new User { UserName = "adminUsername", FName = "Admin", LName = "User" };
+                    var result = await userManager.CreateAsync(user, "Admin1!");
+                    if (result.Succeeded)
+                        await userManager.AddToRoleAsync(user, "Admin");
+                }
+
+                // Driver
+                if (await roleManager.FindByNameAsync("Driver") == null)
+                    await roleManager.CreateAsync(new IdentityRole("Driver"));
+                if (await userManager.FindByNameAsync("driverUsername") == null)
+                {
+                    User user = new User { UserName = "driverUsername", FName = "Driver", LName = "User" };
+                    var result = await userManager.CreateAsync(user, "Driver1!");
+                    if (result.Succeeded)
+                        await userManager.AddToRoleAsync(user, "Driver");
+                }
             }
 
             app.UseSession();

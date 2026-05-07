@@ -181,9 +181,10 @@ namespace C__Advanced_Final_Project.Migrations
                 {
                     DriverID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    DriverUserId = table.Column<string>(type: "nvarchar(450)", nullable: true),
-                    CurrentPassengers = table.Column<int>(type: "int", nullable: false),
-                    MaxCapacity = table.Column<int>(type: "int", nullable: false)
+                    DriverUserId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    remainingPassengers = table.Column<int>(type: "int", nullable: false),
+                    MaxCapacity = table.Column<int>(type: "int", nullable: false),
+                    AttendingEventId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -192,7 +193,8 @@ namespace C__Advanced_Final_Project.Migrations
                         name: "FK_Drivers_AspNetUsers_DriverUserId",
                         column: x => x.DriverUserId,
                         principalTable: "AspNetUsers",
-                        principalColumn: "Id");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -201,31 +203,24 @@ namespace C__Advanced_Final_Project.Migrations
                 {
                     GuestID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    GuestUserId = table.Column<string>(type: "nvarchar(450)", nullable: true),
+                    GuestUserID = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Address = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    AttendingEventEventID = table.Column<int>(type: "int", nullable: false),
+                    AttendingEventId = table.Column<int>(type: "int", nullable: false),
                     DriverID = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Guests", x => x.GuestID);
                     table.ForeignKey(
-                        name: "FK_Guests_AspNetUsers_GuestUserId",
-                        column: x => x.GuestUserId,
+                        name: "FK_Guests_AspNetUsers_GuestUserID",
+                        column: x => x.GuestUserID,
                         principalTable: "AspNetUsers",
                         principalColumn: "Id");
                     table.ForeignKey(
                         name: "FK_Guests_Drivers_DriverID",
                         column: x => x.DriverID,
                         principalTable: "Drivers",
-                        principalColumn: "DriverID",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_Guests_Events_AttendingEventEventID",
-                        column: x => x.AttendingEventEventID,
-                        principalTable: "Events",
-                        principalColumn: "EventID",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "DriverID");
                 });
 
             migrationBuilder.InsertData(
@@ -237,6 +232,11 @@ namespace C__Advanced_Final_Project.Migrations
                 table: "Events",
                 columns: new[] { "EventID", "Description", "Drivers", "EventDate", "Location", "Name" },
                 values: new object[] { 1, "Test", 0, new DateOnly(1, 1, 1), "TestLocation", "Test" });
+
+            migrationBuilder.InsertData(
+                table: "Drivers",
+                columns: new[] { "DriverID", "AttendingEventId", "DriverUserId", "MaxCapacity", "remainingPassengers" },
+                values: new object[] { 1, 1, "static-user-id-1", 4, 4 });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
@@ -283,19 +283,14 @@ namespace C__Advanced_Final_Project.Migrations
                 column: "DriverUserId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Guests_AttendingEventEventID",
-                table: "Guests",
-                column: "AttendingEventEventID");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Guests_DriverID",
                 table: "Guests",
                 column: "DriverID");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Guests_GuestUserId",
+                name: "IX_Guests_GuestUserID",
                 table: "Guests",
-                column: "GuestUserId");
+                column: "GuestUserID");
         }
 
         /// <inheritdoc />
@@ -317,6 +312,9 @@ namespace C__Advanced_Final_Project.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
+                name: "Events");
+
+            migrationBuilder.DropTable(
                 name: "Guests");
 
             migrationBuilder.DropTable(
@@ -324,9 +322,6 @@ namespace C__Advanced_Final_Project.Migrations
 
             migrationBuilder.DropTable(
                 name: "Drivers");
-
-            migrationBuilder.DropTable(
-                name: "Events");
 
             migrationBuilder.DropTable(
                 name: "AspNetUsers");

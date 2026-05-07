@@ -1,0 +1,44 @@
+﻿@model List<Event>
+@{
+    ViewData["Title"] = "Driver Dashboard";
+}
+
+<h2>Driver Dashboard</h2>
+<p>Welcome, @User.Identity.Name!</p>
+
+<h4>Your Events</h4>
+@if (Model == null || !Model.Any())
+{
+    <p>You are not signed up for any events yet.</p>
+}
+else
+{
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Location</th>
+                <th>Date</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var e in Model)
+            {
+                <tr>
+                    <td>@e.Name</td>
+                    <td>@e.Description</td>
+                    <td>@e.Location</td>
+                    <td>@e.EventDate</td>
+                    <td>
+                        <form asp-action="DropOut" asp-controller="Driver" method="post">
+                            <input type="hidden" name="eventId" value="@e.EventID" />
+                            <button type="submit" class="btn btn-sm btn-danger">Drop Out</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

@@ -1,7 +1,8 @@
 ﻿@{
     var isAdmin = User.IsInRole("Admin");
+    var isDriver = User.IsInRole("Driver");
+    var signedUpIds = ViewBag.SignedUpEventIds as List<int?> ?? new List<int?>();
 }
-
 @foreach (var currEvent in Model)
 {
     <tr>
@@ -10,14 +11,19 @@
         <td>@currEvent.Location</td>
         <td>@currEvent.EventDate</td>
         <td>@currEvent.Drivers</td>
-
-        @if (!isAdmin)
+        @if (isDriver && !isAdmin)
         {
             <td>
-                <a asp-controller="Event" asp-action="ViewEvent" asp-route-id="@currEvent.EventID">Sign Up</a>
+                @if (signedUpIds.Contains(currEvent.EventID))
+                {
+                    <span class="badge bg-success">Already Signed Up</span>
+                }
+                else
+                {
+                    <a asp-controller="Driver" asp-action="SignUpForEvent" asp-route-id="@currEvent.EventID" class="btn btn-sm btn-primary">Sign Up as Driver</a>
+                }
             </td>
         }
-
         @if (isAdmin)
         {
             <td>

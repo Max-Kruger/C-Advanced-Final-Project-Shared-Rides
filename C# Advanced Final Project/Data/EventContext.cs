@@ -54,17 +54,19 @@ namespace C__Advanced_Final_Project.Data
             var allGuests = this.Guests.ToList();
             List<Event> myevents = new List<Event>();
 
-            foreach(var driver in allDrivers) {
+            foreach (var driver in allDrivers)
+            {
                 if (driver.DriverUserId == currentUser.Id && driver.AttendingEventId != null)
                 {
                     myevents.Add(this.Events.Find(driver.AttendingEventId));
                 }
             }
-            foreach (var guest in allGuests) {
-                if (guest.GuestUser.Id == currentUser.Id) {
+            foreach (var guest in allGuests)
+            {
+                if (guest.GuestUserID == currentUser.Id)
+                {
                     myevents.Add(this.Events.Find(guest.AttendingEventId));
                 }
-            
             }
 
             return myevents;
@@ -74,7 +76,18 @@ namespace C__Advanced_Final_Project.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            
+
+            modelBuilder.Entity<Guest>()
+                .HasOne(g => g.GuestUser)
+                .WithMany()
+                .HasForeignKey(g => g.GuestUserID)
+                .OnDelete(DeleteBehavior.NoAction);
+
+            modelBuilder.Entity<Guest>()
+                .HasOne(g => g.AssignedDriver)
+                .WithMany()
+                .HasForeignKey(g => g.DriverID)
+                .OnDelete(DeleteBehavior.NoAction);
             modelBuilder.Entity<Event>().HasData(
             new Event
             {

@@ -32,6 +32,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/maxkr/OneDrive/Documents/GitHub/C-Advanced-Final-Project-Shared-Rides/C\# Advanced Final Project/Views/Account/EditProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFZGl0UHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/maxkr/OneDrive/Documents/GitHub/C-Advanced-Final-Project-Shared-Rides/C\# Advanced Final Project/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -40,8 +44,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/maxkr/OneDrive/Documents/GitHub/C-Advanced-Final-Project-Shared-Rides/C\# Advanced Final Project/Views/Home/EventList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFdmVudExpc3QuY3NodG1s
+[C:/Users/maxkr/OneDrive/Documents/GitHub/C-Advanced-Final-Project-Shared-Rides/C\# Advanced Final Project/Views/Driver/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maxkr/OneDrive/Documents/GitHub/C-Advanced-Final-Project-Shared-Rides/C\# Advanced Final Project/Views/Driver/SignUpForEvent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyXFNpZ25VcEZvckV2ZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maxkr/OneDrive/Documents/GitHub/C-Advanced-Final-Project-Shared-Rides/C\# Advanced Final Project/Views/Events/EditEvent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXEVkaXRFdmVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/maxkr/OneDrive/Documents/GitHub/C-Advanced-Final-Project-Shared-Rides/C\# Advanced Final Project/Views/Home/Index.cshtml]
@@ -52,16 +64,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/maxkr/OneDrive/Documents/GitHub/C-Advanced-Final-Project-Shared-Rides/C\# Advanced Final Project/Views/Home/ViewEvent.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWV3RXZlbnQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/maxkr/OneDrive/Documents/GitHub/C-Advanced-Final-Project-Shared-Rides/C\# Advanced Final Project/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/maxkr/OneDrive/Documents/GitHub/C-Advanced-Final-Project-Shared-Rides/C\# Advanced Final Project/Views/Shared/EventList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEV2ZW50TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/maxkr/OneDrive/Documents/GitHub/C-Advanced-Final-Project-Shared-Rides/C\# Advanced Final Project/Views/Shared/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maxkr/OneDrive/Documents/GitHub/C-Advanced-Final-Project-Shared-Rides/C\# Advanced Final Project/Views/Shared/ViewEvent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFZpZXdFdmVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maxkr/OneDrive/Documents/GitHub/C-Advanced-Final-Project-Shared-Rides/C\# Advanced Final Project/Views/Shared/_DBTableItemsList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EQlRhYmxlSXRlbXNMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/maxkr/OneDrive/Documents/GitHub/C-Advanced-Final-Project-Shared-Rides/C\# Advanced Final Project/Views/Shared/_ValidationScriptsPartial.cshtml]

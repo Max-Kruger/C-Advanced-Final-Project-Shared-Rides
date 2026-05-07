@@ -13,8 +13,12 @@ namespace C__Advanced_Final_Project.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
+            if (User.IsInRole("Driver"))
+            {
+                return RedirectToAction("Index", "Driver");
+            }
             return View();
         }
 

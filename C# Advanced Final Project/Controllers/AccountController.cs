@@ -21,26 +21,27 @@ namespace C__Advanced_Final_Project.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> Register(
-            Register model)
+        public async Task<IActionResult> Register(Register model)
         {
             if (ModelState.IsValid)
             {
                 var user = new User { UserName = model.Username, FName = model.FName, LName = model.LName };
-                var result = await userManager.CreateAsync(user,
-                model.Password);
+                var result = await userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
-                    await signInManager.SignInAsync(user,
-                    isPersistent: false);
+                    if (model.IsDriver)
+                    {
+                        await userManager.AddToRoleAsync(user, "Driver");
+                        await signInManager.SignInAsync(user, isPersistent: false);
+                        return RedirectToAction("Index", "Driver");
+                    }
+                    await signInManager.SignInAsync(user, isPersistent: false);
                     return RedirectToAction("Index", "Home");
                 }
                 else
                 {
                     foreach (var error in result.Errors)
-                    {
                         ModelState.AddModelError("", error.Description);
-                    }
                 }
             }
             return View(model);
@@ -68,15 +69,18 @@ namespace C__Advanced_Final_Project.Controllers
                 lockoutOnFailure: false);
                 if (result.Succeeded)
                 {
+                    // Redirect based on role
+                    var user = await userManager.FindByNameAsync(model.Username);
+                    if (await userManager.IsInRoleAsync(user, "Admin"))
+                        return RedirectToAction("Index", "User");
+                    if (await userManager.IsInRoleAsync(user, "Driver"))
+                        return RedirectToAction("Index", "Driver");
+
                     if (!string.IsNullOrEmpty(model.ReturnUrl) &&
                     Url.IsLocalUrl(model.ReturnUrl))
-                    {
                         return Redirect(model.ReturnUrl);
-                    }
-                    else
-                    {
-                        return RedirectToAction("Index", "Home");
-                    }
+
+                    return RedirectToAction("Index", "Home");
                 }
             }
             ModelState.AddModelError("", "Invalid username/password.");
@@ -113,5 +117,8 @@ namespace C__Advanced_Final_Project.Controllers
             }
             return View(model);
         }
+
+        
+
     }
 }

@@ -1,40 +1,29 @@
 ﻿@model Guest
-
 @{
-	var role = User.IsInRole("Driver");
-	string title = ViewBag.Event.Name;
-	ViewData["Title"] = title;
+    string title = ViewBag.Event.Name;
+    ViewData["Title"] = title;
 }
-<h2>@ViewBag.Title</h2>
+<h2>@ViewBag.Event.Name</h2>
 <h3>@ViewBag.Event.Description</h3>
-
 <form asp-action="ViewEvent" method="post">
-	<div asp-validation-summary="All" class="text-danger"></div>
-
-	<div class="mb-3">
-		<label asp-for="Address" class="form-label">Address</label>
-		<input asp-for="Address" class="form-control" value="@Context.Session.GetString("Address")" />
-	</div>
-	<div class="mb-3">
-		<label asp-for="DriverID" class="form-label">Drivers</label>
-		<select asp-for="DriverID" class="form-select">
-			<option value="">Select Driver</option>
-			
-			@foreach (Driver d in ViewBag.Drivers)
-			{
-
-				<option value="@d.DriverID">@d.DriverUser.FName @d.DriverUser.LName (Available Seats: @d.remainingPassengers)</option>
-			}
-
-
-		</select>
-	</div>
-
-	<input type="hidden" asp-for="GuestUserID" value="@ViewBag.UserID" />
-	<input type="hidden" asp-for="GuestID" />
-	<input type="hidden" asp-for="AttendingEventId" value="@ViewBag.Event.EventID"/>
-
-	<button type="submit" class="btn btn-primary">Save</button>
-	<a asp-controller="Event" asp-action="EventList" class="btn btn-primary">Cancel</a>
-
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="mb-3">
+        <label asp-for="DriverID" class="form-label">Select Your Driver</label>
+        <select asp-for="DriverID" class="form-select">
+            <option value="">-- Select a Driver --</option>
+            @foreach (Driver d in ViewBag.Drivers)
+            {
+                <option value="@d.DriverID">
+                    @d.DriverUser?.FName @d.DriverUser?.LName —
+                    @d.CarColor @d.CarMake @d.CarModel
+                    (Available Seats: @d.remainingPassengers)
+                </option>
+            }
+        </select>
+    </div>
+    <input type="hidden" asp-for="GuestUserID" value="@ViewBag.UserID" />
+    <input type="hidden" asp-for="GuestID" />
+    <input type="hidden" asp-for="AttendingEventId" value="@ViewBag.Event.EventID" />
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-controller="Event" asp-action="EventList" class="btn btn-secondary">Cancel</a>
 </form>

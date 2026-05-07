@@ -5,7 +5,7 @@
 namespace C__Advanced_Final_Project.Migrations
 {
     /// <inheritdoc />
-    public partial class AddUserToDriver : Migration
+    public partial class FixingDriverView : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

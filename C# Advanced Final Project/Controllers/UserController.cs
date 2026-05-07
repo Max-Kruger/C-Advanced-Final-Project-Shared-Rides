@@ -90,6 +90,30 @@ namespace C__Advanced_Final_Project.Controllers
             await roleManager.CreateAsync(new IdentityRole("Admin"));
             return RedirectToAction("Index");
         }
+        [HttpPost]
+        public async Task<IActionResult> AddToDriver(string id)
+        {
+            IdentityRole driverRole = await roleManager.FindByNameAsync("Driver");
+            if (driverRole == null)
+            {
+                TempData["message"] = "Driver role does not exist.";
+            }
+            else
+            {
+                User user = await userManager.FindByIdAsync(id);
+                await userManager.AddToRoleAsync(user, driverRole.Name);
+            }
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> RemoveFromDriver(string id)
+        {
+            User user = await userManager.FindByIdAsync(id);
+            await userManager.RemoveFromRoleAsync(user, "Driver");
+            return RedirectToAction("Index");
+        }
+
 
 
     }

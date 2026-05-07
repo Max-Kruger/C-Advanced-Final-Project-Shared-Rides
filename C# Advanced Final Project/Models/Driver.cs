@@ -18,5 +18,12 @@ namespace C__Advanced_Final_Project.Models
 
         public int? AttendingEventId {  get; set; }
 
+        [Required(ErrorMessage = "Please enter your car make")]
+        public string CarMake { get; set; } = string.Empty;
+        [Required(ErrorMessage = "Please enter your car model")]
+        public string CarModel { get; set; } = string.Empty;
+        [Required(ErrorMessage = "Please enter your car color")]
+        public string CarColor { get; set; } = string.Empty;
+
     }
 }
