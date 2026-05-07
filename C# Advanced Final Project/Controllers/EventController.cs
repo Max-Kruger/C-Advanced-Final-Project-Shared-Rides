@@ -1,13 +1,11 @@
 ﻿using C__Advanced_Final_Project.Data;
 using C__Advanced_Final_Project.Models;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.Blazor;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
 
 namespace C__Advanced_Final_Project.Controllers
 {
@@ -26,36 +24,26 @@ namespace C__Advanced_Final_Project.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> EventList()
+        public IActionResult EventList()
         {
             var events = context.Events.ToList();
-            if (User.IsInRole("Driver"))
-            {
-                var currentUser = await _userManager.GetUserAsync(User);
-                var signedUpEventIds = context.Drivers
-                    .Where(d => d.DriverUserId == currentUser.Id && d.AttendingEventId != null)
-                    .Select(d => d.AttendingEventId)
-                    .ToList();
-                ViewBag.SignedUpEventIds = signedUpEventIds;
-            }
+
             return View(events);
         }
 
-        [Authorize]
         [HttpGet]
         public async Task<IActionResult> MyEvents()
         {
             var currentUser = await _userManager.GetUserAsync(User);
 
-            // Add this check
-            if (currentUser == null)
-            {
-                return RedirectToAction("Login", "Account");
-            }
-
             var events = context.FetchMyEvents(currentUser);
+
             return View("EventList", events);
         }
+
+
+
+
         [HttpGet]
         public IActionResult ViewEvent(int id) { 
             
@@ -102,19 +90,19 @@ namespace C__Advanced_Final_Project.Controllers
         public IActionResult Add()
         {
             ViewBag.Action = "Add";
-            return View("Edit", new Event());
+            return View("EditEvent", new Event());
         }
 
         [HttpGet]
-        public IActionResult Edit(int id)
+        public IActionResult EditEvent(int id)
         {
-            ViewBag.Action = "Edit";
+            ViewBag.Action = "EditEvent";
             var e = context.Events.Find(id);
             return View(e);
 
         }
         [HttpPost]
-        public IActionResult Edit(Event e) {
+        public IActionResult EditEvent(Event e) {
 
             if (ModelState.IsValid) { 
                 
@@ -134,12 +122,28 @@ namespace C__Advanced_Final_Project.Controllers
             }
             else
             {
-                ViewBag.Action = (e.EventID == 0) ? "Add" : "Edit";
+                ViewBag.Action = (e.EventID == 0) ? "Add" : "EditEvent";
                 return View(e);
             }
         }
-            
-        }
-            
-}
 
+
+        [HttpGet]
+        public IActionResult DeleteEvent(int id) { 
+            var ev  = context.Events.Find(id);
+            ViewBag.EventName = ev.Name;
+            return View(ev);
+        
+        }
+        [HttpPost]
+        public IActionResult DeleteEvent(Event e)
+        {
+            context.Events.Remove(e);
+            context.SaveChanges();
+            return RedirectToAction("EventList", "Event");
+
+        }
+    }
+            
+    
+}
